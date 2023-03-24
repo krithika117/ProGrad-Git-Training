@@ -7,8 +7,9 @@ git stash save "Stash initiated"
 git stash list
 git stash apply
 git stash apply stash@{0}
+// or 
 git stash drop stash@{0}
-# or
+// or
 git stash pop
 git commit -m "Commit Message"
 git push -u origin main
